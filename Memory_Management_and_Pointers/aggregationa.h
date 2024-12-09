@@ -4,7 +4,7 @@
 
 class AggregationA {
 private:
-    ClassB& refB; // Aggregaatio viittaa olemassa olevaan olioon
+    ClassB& refB;
 public:
     AggregationA(ClassB& value);
     string getBinfo();
