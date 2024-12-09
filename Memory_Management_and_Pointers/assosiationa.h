@@ -4,7 +4,7 @@
 
 class AssosiationA {
 private:
-    ClassB objectB; // Assosiaatio käyttää kopioitua olio-instanssia
+    ClassB objectB;
 public:
     AssosiationA(ClassB value);
     string getBinfo();
